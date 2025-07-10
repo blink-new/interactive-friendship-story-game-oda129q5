@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-import { Heart, MessageCircle, Users, Star, Cloud, Sun, Moon, Rain } from 'lucide-react'
+import { Heart, MessageCircle, Users, Star, Cloud, Sun, Moon, CloudRain } from 'lucide-react'
 
 type EmotionType = 'happy' | 'sad' | 'neutral' | 'anxious' | 'hopeful'
 
@@ -128,7 +128,7 @@ const emotionThemes = {
     darkBackground: 'from-slate-800 via-gray-700 to-blue-800',
     textColor: 'text-slate-700',
     darkTextColor: 'text-slate-300',
-    icon: Rain,
+    icon: CloudRain,
     particles: '💧',
     description: 'Heavy clouds gather overhead'
   },
